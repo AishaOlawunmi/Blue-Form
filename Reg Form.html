@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Reg Form.css">
+</head>
+<body>
+    <div class="regform"><h1>Registration Form</Form></h1></div>
+    <div class="main">
+        <form>
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input type="text" class="firstname" placeholder="firstname">
+                <input type="text" class="lastname" placeholder="lastname">
+            </div>
+            
+            <h2 class="iAge">Age</h2>
+            <input type="number" class="age" name="">
+             
+            <h2 class="iGender">Gender</h2>
+            <select class="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+
+            </select>
+            <h2 class="E-mail">E-mail</h2>
+            <input type="text" class="email" name="" placeholder="e.g. adeoye@gmail,">
+
+            <h2 class="iPhone">Phone</h2>
+            <select class="phone">
+                <option>+91</option>
+                <option>+92</option>
+                <option>+93</option>
+                <option>+94</option>
+                <option>+95</option> 
+            </select>
+
+            <input type="text" class="number" placeholder="phone number" name="">
+           
+             <h2 class="password">Password</h2>
+             <input type="password" class="pass1" placeholder="enter password">
+             <input type="password" class="pass2" placeholder="re-enter password"><br>
+
+             <p class="condition"><input type="checkbox" id="terms">I accept the terms and conditions</p><br><br>
+
+             <input type="button" class="btn" value="Register">
+        </form>
+
+    </div>
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px";
+        function menutoggle(){
+            if (MenuItem.style.maxHeight == "0px"){
+                MenuItem.style.maxHeight = "200px";
+            }
+                else{
+                    MenuItem.style.maxHeight = "0px";
+                }
+          }
+
+           </script>
+    
+</body>
+</html>
